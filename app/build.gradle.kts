@@ -9,8 +9,14 @@ repositories {
 
 dependencies {
     implementation(kotlin("scripting-jsr223"))
+    implementation(kotlin("reflect"))
 }
 
 application {
     mainClass.set("test.AppKt")
+    mainModule.set("test")
+}
+
+sourceSets.main {
+    java.srcDirs("src/main/kotlin")
 }
