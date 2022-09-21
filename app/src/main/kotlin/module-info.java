@@ -3,4 +3,6 @@ module test {
     requires java.scripting;
     requires kotlin.reflect;
     requires jdk.unsupported;
+
+    uses javax.script.ScriptEngineFactory;
 }
