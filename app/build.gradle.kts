@@ -1,6 +1,5 @@
 plugins {
     id("org.jetbrains.kotlin.jvm") version "1.7.10"
-    id("org.javamodularity.moduleplugin") version "1.8.12"
     id("org.beryx.jlink") version "2.25.0"
     application
 }
